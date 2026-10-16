@@ -1,0 +1,54 @@
+{
+  "model_name": "Gradient Boosting",
+  "model_version": "1.0.0",
+  "trained_at": "2026-10-16T08:23:30",
+  "sklearn_version": "1.8.0",
+  "target": "price (USD); model dilatih pada log1p(price)",
+  "num_features": [
+    "mileage",
+    "age",
+    "review",
+    "review_count",
+    "mileage_per_year",
+    "review_missing"
+  ],
+  "cat_features": [
+    "model_grp",
+    "trim"
+  ],
+  "current_year": 2022,
+  "known_model_groups": [
+    "4Runner",
+    "C-HR",
+    "Camry",
+    "Corolla",
+    "Highlander",
+    "Land Cruiser",
+    "Other",
+    "Prius",
+    "RAV4",
+    "Sienna",
+    "Tacoma",
+    "Tundra"
+  ],
+  "input_limits": {
+    "year": [
+      1998,
+      2021
+    ],
+    "mileage": [
+      0,
+      293420
+    ],
+    "review": [
+      0.0,
+      5.0
+    ]
+  },
+  "test_metrics": {
+    "MAE": 2374.4748,
+    "RMSE": 3347.5133,
+    "R2": 0.9042,
+    "MAPE%": 8.1799
+  }
+}
