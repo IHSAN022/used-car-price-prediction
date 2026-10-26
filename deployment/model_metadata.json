@@ -1,7 +1,7 @@
 {
   "model_name": "Gradient Boosting",
   "model_version": "1.0.0",
-  "trained_at": "2026-10-16T08:23:30",
+  "trained_at": "2026-10-16T09:26:10",
   "sklearn_version": "1.8.0",
   "target": "price (USD); model dilatih pada log1p(price)",
   "num_features": [
